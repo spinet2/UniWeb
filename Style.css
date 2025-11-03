@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  font-family: 'Times New Roman', serif;
+  color: #fff;
+  background: 
+    linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)),
+    url('GHD.jpg') no-repeat center center fixed;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  font-size: 1.6em;
+  line-height: 1.2em;
+}
+
+header {
+  margin-top: 20px;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+cited {
+  font-size: 0.8em;
+  font-style: italic;
+}
+
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  text-align: justify;
+}
+
+nav {
+  margin-bottom: 40px;
+}
+
+a {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: rgba(255,255,255,0.15);
+  border-radius: 5px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 0.8em;
+  transition: background-color 0.3s;
+}
+
+a:hover {
+  background-color: rgba(255,255,255,0.3);
+}
